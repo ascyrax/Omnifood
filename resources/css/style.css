@@ -30,11 +30,21 @@ html{
 /* REUSABLE COMPONENTS */
 /*---------------------------------------*/
 .row{
-    /* border: 1px solid black; */
     max-width: 1140px;
     margin:0 auto; /* this is similar to 0 auto 0 auto */
+    border:1px solid greenyellow;
 }
 
+
+.col{
+    display: block;
+    float:left;
+    margin:1% 0% 1% 1.6%;border:1px solid greenyellow;
+}
+.col-1-of-2{
+    float:left;
+    width:45%;
+}
 
 /*---------------------------------------------
 HEADER
@@ -260,4 +270,19 @@ BUTTONS
 .gallery img:hover{
     transform:scale(1);
     opacity:1;
+}
+
+
+
+/*---------------------------------------*/
+/* how it works */
+/*---------------------------------------*/
+
+.how .left{
+    overflow:hidden;
+}
+.how .left img{
+    width:40%;
+    height:auto;
+    margin:auto;
 }
