@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
   </head>
 
-  <body>
+  <html>
     <!---------------------Landing Page Logo Nav-bar----------------->
     <header>
       <nav class="nav-panel">
@@ -86,7 +86,7 @@
       </div>
     </section>
     <!----------------  images customers favourites ------------>
-    <section class="gallery">
+    <section class="gallery clearfix">
       <ul>
         <li>
           <figure>
@@ -154,7 +154,9 @@
       </ul>
     </section>
     <!----------------- HOW IT WORKS --------------->
-    <section class="row how">
+
+    <section class="howitworks">
+    <div class="row how">
       <div class="top">
         <h2>How it works &dash; Simple as 1,2,3</h2>
       </div>
@@ -162,28 +164,32 @@
         <img src="resources/img/app-iPhone.png" alt="omnifood in an iphone" />
       </div>
       <div class="right col col-1-of-2">
-        <div class="1">1</div>
-        <div class="step1">
-          <p>
+        <div class="step step1">
+          <div class="num 1">1</div>
+          <p class="step-para">
             Choose the subscription plan that best fits your needs and sign up
             today.
           </p>
         </div>
-        <div class="2">2</div>
-        <div class="step2">
-          <p>
+        
+        <div class="step step2">
+          <div class="num 2">2</div>
+          <p class="step-para">
             Order your delicious meal using our mobile app or website. Or you
             can even call us!
           </p>
         </div>
-        <div class="3">3</div>
-        <div class="step3">
-          <p>
+        
+        <div class="step step3">
+          <div class="num 3">3</div>
+          <p class="step-para">
             Enjoy your meal after less than 20 minutes. See you the next time!
           </p>
         </div>
-        <a href="#" class="applink"><img src="resources/img/download-app.svg"></a>
-        <a href="#" class="applink" ><img src="resources/img/download-app-android.png"></a>"</div>
+        <div class="applinks">
+          <a href="#" class="applink"><img src="resources/img/download-app.svg"></a>
+          <a href="#" class="applink" ><img src="resources/img/download-app-android.png"></a>
+        </div>
       </div>
     </section>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

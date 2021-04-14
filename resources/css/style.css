@@ -32,18 +32,19 @@ html{
 .row{
     max-width: 1140px;
     margin:0 auto; /* this is similar to 0 auto 0 auto */
-    border:1px solid greenyellow;
+    /* border:1px solid greenyellow; */
 }
 
 
 .col{
     display: block;
     float:left;
-    margin:1% 0% 1% 1.6%;border:1px solid greenyellow;
+    /* margin:1% 0% 1% 1.6%; */
+    /* border:1px solid royalblue; */
 }
 .col-1-of-2{
     float:left;
-    width:45%;
+    width:50%;
 }
 
 /*---------------------------------------------
@@ -273,16 +274,81 @@ BUTTONS
 }
 
 
-
+.clearfix:after{
+    content:"suraj";
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden;
+}
+.gallery{
+    /* border:1px solid deeppink; */
+}
 /*---------------------------------------*/
 /* how it works */
 /*---------------------------------------*/
-
+.howitworks{
+    padding-top:15vh;
+    background-color:rgb(202, 239, 250);
+}
+.how{ 
+    /* border: 1px solid firebrick; */
+    text-align: center;
+}
 .how .left{
     overflow:hidden;
+    /* border:1px solid saddlebrown; */
+    text-align: center;
 }
 .how .left img{
-    width:40%;
+    width:50%;
     height:auto;
     margin:auto;
 }
+.num{
+    display: inline-block;
+    float:left;
+    border: 3px solid #e67e22;
+    border-radius:50%;
+    color:#e67e22;
+    height:50px;
+    width:50px;
+    text-align: center;
+    padding:6px;
+    font-size: 150%;
+    margin-right:40px;
+    margin-left:20px;
+}
+.step{
+    margin-bottom: 100px;
+    font-weight:600;
+}
+
+.left{
+    margin-top:100px;
+}
+.right{
+    margin-top:180px;
+}
+.top:after{
+    display:block;
+    height:3px;
+    width:200px;
+    margin:0 auto;
+    background-color:#e67e22;
+    /* content:""; */
+    /* border:2px solid #e67e22; */
+    content:" ";
+}
+.applink img{
+    display:inline-block;
+    height:50px;
+    width:auto;
+    margin-top:0px;
+}
+/* .top:last-child{
+    background-color: #e67e22;
+} */
+/* .step:last-of-type{
+    background-color:red;
+} */
