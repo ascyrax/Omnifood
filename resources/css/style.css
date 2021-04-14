@@ -427,3 +427,63 @@ BUTTONS
     border-bottom: 1px solid transparent;
     color:rgb(202, 239, 250);
 }
+
+
+
+
+/*---------------------------------------*/
+/* testimonials by customers*/
+/*---------------------------------------*/
+
+.sec-testimonials{
+    /* margin-top:15vh; */
+    /* background-color: rgb(181, 196, 196); */
+    padding-top:  15vh;;
+    padding-bottom:15vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/back-customers.jpg);
+}
+.tests h2:after{   
+    background-color: red;    
+    width:200px;
+    height:3px; 
+    display:block;
+    content:" ";
+    margin:10vh auto 10vh auto;
+}
+
+.tests{
+    width:1140px;
+    margin:0 auto;
+    text-align:center;
+    color:white;
+    font-weight:300;
+}
+.test{
+    float:left;
+    width:28%;
+    text-align:left;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    /* border:1px solid firebrick; */
+    margin:0 2%;
+    line-height: 145%;
+}
+.test img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    vertical-align: middle;
+}
+.test cite{
+    /* border: 1px solid deeppink; */
+    text-align: left;
+    width:100%;
+    margin-top:5vh;
+    display: inline-block;
+}
+.test blockquote{
+    /* border:1px solid green; */
+}
+.test1 cite{
+    margin-top:8vh;
+}
