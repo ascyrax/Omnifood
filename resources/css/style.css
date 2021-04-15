@@ -103,7 +103,7 @@ h3{
 /*----------------------------------------
 BUTTONS
 ------------------------------------------*/
-.btn:link,.btn:visited{
+.btn:link,.btn:visited,.form input[type="submit"]{
     display:inline-block;
     /* background-color:#e67e22; */
     border-radius:200px;
@@ -114,18 +114,20 @@ BUTTONS
     font-weight:100;
     transition:background-color 0.2s, border 0.2s, color 0.2s;
 }
-.btn-main{
+.btn-main,.form input[type="submit"]{
     margin-right:20px;
     background-color:#e67e22;
     border:1px solid #e67e22;
     color:white;
 }
 .btn-ghost{
-    background-color:rgba(56, 56, 56, 0.178);
+    background-color:rgba(56, 56, 56, 0.11);
     color:#e67e22;
     border:1px solid #e67e22;
 }
-.btn-main:hover,.btn-main:active{
+.btn-main:hover,.btn-main:active,
+.form input[type="submit"]:hover,
+.form input[type="submit"]:active{
     border:1px solid #bf6516;
     background-color:#bf6516;
 }
@@ -498,7 +500,7 @@ BUTTONS
 /* sign up*/
 /*---------------------------------------*/
 .sec-signup{
-    background-color:#85c2da;
+    background-color:rgb(202, 239, 250);
     padding:15vh 0;
 }
 .sign{
@@ -524,8 +526,8 @@ BUTTONS
     border: 1px solid #55290238;
     border-radius:6px;
     text-align: center;
-    background-color:#fff;
-    box-shadow:10px 10px 10px #e67e22;
+    background-color:rgba(255, 255, 255, 0.616);
+    box-shadow:10px 10px 10px #22e6c5a4;
 }
 .sign-price:after,.sign-features:after{
     content:" ";
@@ -556,7 +558,7 @@ BUTTONS
 }
 .sign-features{
     text-align: left;
-    margin-left:5%;
+    /* padding-left:5%; */
     font-size:90%;
     line-height:145%;
 }
@@ -566,14 +568,15 @@ BUTTONS
     line-height: 145%;
 }
 .sign-price .a,.b{
-    color:#e67e22;
+    color:#070520;
     font-size:200%;
     /* font-weight: 300; */
 }
 .sign-price .b{
     font-weight: 300;
+    color:#e67e22;
 }
-.sign-features{
+.sign-features{  
     margin-top:10%;
     /* padding-bottom:10%; */
 }
@@ -584,3 +587,62 @@ BUTTONS
 .sign span{
     font-size:40%;
 }
+.sign-features ion-icon{
+    margin:5%;
+}
+
+
+/*---------------------------------------*/
+/* form*/
+/*---------------------------------------*/
+.sec-form{
+    background-color:deepskyblue;
+    padding:15vh 0;
+}
+.form-head{
+    margin:0 auto;
+    text-align:center;
+    /* border:5px solid ; */
+}
+.form-head:after{
+    content:"";
+    width:200px;
+    height:3px;
+    display:block;
+    background-color:#e67e22;
+    margin:10vh auto;
+}
+.form-left{
+    width:33%;
+}
+.form-right{
+    width:66%;
+}
+.form-left,.form-right{
+    float:left;
+    text-align: left;
+    /* padding-left:25%; */
+}
+/* .form-left{
+    padding-left:20%;
+}
+.form-right{
+    padding-left:5%;
+} */
+.form-unit{
+    line-height:145%;
+    width:60%;
+    margin:0 auto;
+}
+.form-right input[type=text],select,textarea{
+    width:100%;
+    padding:7px;
+    border-radius:3px;
+    border:1px solid rgb(133, 133, 133);
+}
+.form-unit{
+    /* margin:14px 0; */
+    /* border:1px solid darksalmon; */
+    padding:8px 0;
+}
+
