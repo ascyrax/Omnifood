@@ -526,8 +526,8 @@ BUTTONS
     border: 1px solid #55290238;
     border-radius:6px;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.616);
-    box-shadow:10px 10px 10px #22e6c5a4;
+    background-color:rgba(190, 202, 211, 0.616);
+    box-shadow:10px 10px 10px #081872a4;
 }
 .sign-price:after,.sign-features:after{
     content:" ";
@@ -646,3 +646,67 @@ BUTTONS
     padding:8px 0;
 }
 
+
+
+/*---------------------------------------*/
+/* form*/
+/*---------------------------------------*/
+
+.foot1{
+    width:50%;
+}
+.foot2{
+    width:50%;
+}
+.foot{
+    float:left;
+    color:#666;
+}
+.foot1 li{
+    float:left;
+    font-size:80%;
+    margin-right:15px;
+}
+.foot2 li{
+    float:right;
+    margin-left:15px;
+}
+.foot a:active,.foot a:link{
+    color:#666;
+    text-decoration:none;
+}
+.sec-foot{
+    background-color:#333;
+    padding:6vh 0;
+    /* border:1px solid red; */
+
+}
+.foot3{
+    display: inline-block;
+    text-align: center;
+    /* border:1px solid red; */
+    width:100%;
+    margin-top:5vh;
+}
+.foot a:hover,.foot a:active{
+    color:#ddd;
+}
+.foot2 a{
+    font-size:150%;
+}
+.foot2 ion-icon[name="logo-facebook"]:hover{
+    color:#3b5998;
+}
+.foot2 ion-icon[name="logo-twitter"]:hover{
+    color:#00aced;
+}
+.foot2 ion-icon[name="logo-google"]:hover{
+    color:#db4a39;
+}
+.foot2 ion-icon[name="logo-instagram"]:hover{
+    color:#517fa4;
+}
+.foot1 a{
+    display:inline-block;
+    margin-top:10px;
+}
