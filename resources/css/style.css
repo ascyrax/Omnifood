@@ -1,4 +1,4 @@
-/*---------------------------------------
+/* ---------------------------------------
 orange: #e67e22;
 darker orange:#bf6516
 green:#73daab;
@@ -498,27 +498,89 @@ BUTTONS
 /* sign up*/
 /*---------------------------------------*/
 .sec-signup{
+    background-color:#85c2da;
+    padding:15vh 0;
+}
+.sign{
     width:1140px;
     margin:0 auto;
 }
-.sec-signup .col-1-of-3{
+.sign-head{
+    text-align: center;
+}
+.sign-head:after{
+    content:"";
+    width: 200px;
+    height:3px;
+    display:block;
+    margin:auto;
+    background-color:#e67e22;
+    margin:10vh auto;
+}
+.sign .col-1-of-3{
     float:left;
     width:28%;
     margin:2%;
-    border: 1px solid #e67e22;
+    border: 1px solid #55290238;
     border-radius:6px;
+    text-align: center;
+    background-color:#fff;
+    box-shadow:10px 10px 10px #e67e22;
 }
-.sec-signup .price:after,.features:after{
+.sign-price:after,.sign-features:after{
     content:" ";
     width:100%;
-    height:1px;
+    height:2px;
     display:block;
-    background-color:#e67e22;
+    background-color:#5529022d;
+    /* padding-top:10%; */
 }
-.sec-signup ion-icon{
-    font-size:100%;
+.sign ion-icon{
+    font-size:150%;
     vertical-align: middle;
+    color:#e67e22;
+
 }
-.sec-signup h3,p{
+.sign{
     font-weight:300;
+    line-height: 145%;
+   
+}
+.sign .btn{
+    margin:5%;
+    height: 50px;
+    /* width: auto; */
+    /* text-align: left; */
+    /* display:table-cell; */
+    /* vertical-align: middle; */
+}
+.sign-features{
+    text-align: left;
+    margin-left:5%;
+    font-size:90%;
+    line-height:145%;
+}
+.sign-price .a,.b,.c{
+    text-align:left;
+    margin:4%;
+    line-height: 145%;
+}
+.sign-price .a,.b{
+    color:#e67e22;
+    font-size:200%;
+    /* font-weight: 300; */
+}
+.sign-price .b{
+    font-weight: 300;
+}
+.sign-features{
+    margin-top:10%;
+    /* padding-bottom:10%; */
+}
+.sign ul{
+    padding-bottom:10%;
+    /* padding-top:20%; */
+}
+.sign span{
+    font-size:40%;
 }
