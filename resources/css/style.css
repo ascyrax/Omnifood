@@ -53,12 +53,13 @@ html{
 HEADER
 ---------------------------------------------*/                      
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.77),rgba(0, 0, 0, 0.77)),url(img/hero.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/hero.jpg);
     height:100vh;
     background-position: center;
     background-size: cover;
     /* border:2px solid red; */
     color:#fff;
+    background-attachment: fixed;
 }
 
 .heroText{
@@ -441,9 +442,11 @@ BUTTONS
     padding-top:  15vh;;
     padding-bottom:15vh;
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/back-customers.jpg);
+    background-attachment: fixed;
+    background-size:cover;
 }
 .tests h2:after{   
-    background-color: red;    
+    background-color:#e67e22;    
     width:200px;
     height:3px; 
     display:block;
@@ -467,6 +470,7 @@ BUTTONS
     /* border:1px solid firebrick; */
     margin:0 2%;
     line-height: 145%;
+    font-style:italic;
 }
 .test img{
     height:100px;
@@ -481,9 +485,40 @@ BUTTONS
     margin-top:5vh;
     display: inline-block;
 }
-.test blockquote{
-    /* border:1px solid green; */
+.test blockquote:before{
+    content:"\201F";
+    font-size: 400%;
+    /* display:block; */
+
 }
-.test1 cite{
-    margin-top:8vh;
+
+
+
+/*---------------------------------------*/
+/* sign up*/
+/*---------------------------------------*/
+.sec-signup{
+    width:1140px;
+    margin:0 auto;
+}
+.sec-signup .col-1-of-3{
+    float:left;
+    width:28%;
+    margin:2%;
+    border: 1px solid #e67e22;
+    border-radius:6px;
+}
+.sec-signup .price:after,.features:after{
+    content:" ";
+    width:100%;
+    height:1px;
+    display:block;
+    background-color:#e67e22;
+}
+.sec-signup ion-icon{
+    font-size:100%;
+    vertical-align: middle;
+}
+.sec-signup h3,p{
+    font-weight:300;
 }
